@@ -28,3 +28,7 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+zogg dev notes
+vite project runs with "npm run dev"command.
+Original install has path address issue with logo.svg found in public '../public/vite.svg';but due to error required to move logo.svg to src file
