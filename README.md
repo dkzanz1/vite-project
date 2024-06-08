@@ -32,3 +32,6 @@ export default {
 zogg dev notes
 vite project runs with "npm run dev"command.
 Original install has path address issue with logo.svg found in public '../public/vite.svg';but due to error required to move logo.svg to src file
+
+conversation with ai reference:-
+I'm back to talk about:- "Vite-project day 1 is a Vite React project using TypeScript, part of a M.E.R.N. stack, developed on a Chromebook with Bookworm 12 and Crostini. It has a Node.js backend with Express and a React frontend with Vite. As a senior developer, you can guide on setup, configurations, and best practices."
