@@ -1,11 +1,12 @@
-import Chicken from "./chicken";
-import './App.css';
-import Greeter from "./Greeter"
+import Chicken from "./components/chicken";
+import '.styles/App.css';
+import Greeter from "./components/Greeter"
 
 
 function App() {
   return(<>
       <div>
+        <h1>hello</h1>
         {/* login navbar */}
         {/* logo center with option navbar */}
         {/* hero photo with comment */}
@@ -19,8 +20,6 @@ function App() {
         {/* trendingh card 4 photos */}
         {/* two photo  */}
         {/* footer */}
-
-
         <Greeter />
         <Chicken />  
         <Chicken />  
