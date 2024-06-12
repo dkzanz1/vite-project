@@ -1,5 +1,5 @@
 import Chicken from "./components/chicken";
-import '.styles/App.css';
+import './styles/App.css';
 import Greeter from "./components/Greeter"
 
 
