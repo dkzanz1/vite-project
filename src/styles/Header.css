@@ -1,0 +1,19 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e3e9ee;
+  }
+  
+  .logo-container {
+    margin-bottom: 1rem; /*adjust spacing between logo and nav*/
+  }
+  
+  .logo {
+    height: 80px;
+  }
+  
+
+  

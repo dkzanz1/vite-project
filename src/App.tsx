@@ -1,13 +1,11 @@
-import Chicken from "./components/chicken";
+import React from 'react';
+import Header from "./components/Header";
 import './styles/App.css';
-import Greeter from "./components/Greeter"
 
-
-function App() {
-  return(<>
-      <div>
-        <h1>hello</h1>
-        {/* login navbar */}
+const App: React.FC = () => {
+  return (
+      <div className="App">
+        <Header logoSrc="src/assets/images/image.png" logoAlt="logo" />        {/* login navbar */}
         {/* logo center with option navbar */}
         {/* hero photo with comment */}
         {/* card 1 of 4 across photos*/}
@@ -17,16 +15,11 @@ function App() {
         {/* comment 3 boxes */}
         {/* section one of two with two photos */}
         {/* section one of two with two photos */}
-        {/* trendingh card 4 photos */}
+        {/* trendinh card 4 photos */}
         {/* two photo  */}
         {/* footer */}
-        <Greeter />
-        <Chicken />  
-        <Chicken />  
-        <Chicken />
+   
       </div>
-     
-    </>
   )
 }
 
