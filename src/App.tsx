@@ -1,12 +1,13 @@
 import Chicken from "./components/chicken";
 import './styles/App.css';
-// import Greeter from "./components/Greeter"
+// import Greeter from "./components/Greeter";
+import Header from "./components/Header";
 
 
 function App() {
-  return(<>
-      <div>
-        {/* login navbar */}
+  return(
+      <div className="App">
+        <Header logoSrc="src/assets/images/image.png" logoAlt="logo" />        {/* login navbar */}
         {/* logo center with option navbar */}
         {/* hero photo with comment */}
         {/* card 1 of 4 across photos*/}
@@ -19,12 +20,8 @@ function App() {
         {/* trendingh card 4 photos */}
         {/* two photo  */}
         {/* footer */}
-        <Chicken />  
-      
-      
+   
       </div>
-     
-    </>
   )
 }
 
