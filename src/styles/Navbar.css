@@ -1,7 +1,7 @@
 .navbar {
-    width : 100%;
+    width : 100%; /*Ensures that the navbar takes up the whole screen*/
     display: flex;
-    justify-content: center;
+    justify-content: center; /*Centers the list*/
   }
   
   .navbar-list {

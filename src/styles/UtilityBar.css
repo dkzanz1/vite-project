@@ -1,0 +1,13 @@
+.utility-bar {
+    width: 100%; /*to ensure the whole screen is used*/
+    display: flex;
+    justify-content: flex-end; /*aligns the items to the right*/
+    background-color: #f0f0f0;
+    padding: 0.5rem 1rem;
+}
+.utility-item {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}

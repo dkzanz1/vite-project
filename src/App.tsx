@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "./components/Header";
 import './styles/App.css';
+import HeroBar from './components/HeroBar';
 
 const App: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const App: React.FC = () => {
         <Header logoSrc="src/assets/images/image.png" logoAlt="logo" />        {/* login navbar */}
         {/* logo center with option navbar */}
         {/* hero photo with comment */}
+        <HeroBar />
         {/* card 1 of 4 across photos*/}
         {/* card 2 of 4 across photos*/}
         {/* card 3 of 4 across photos*/}
@@ -20,7 +22,7 @@ const App: React.FC = () => {
         {/* footer */}
    
       </div>
-  )
-}
+  );
+};
 
 export default App
