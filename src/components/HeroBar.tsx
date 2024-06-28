@@ -1,27 +1,46 @@
-import React from 'react';
-import '../styles/HeroBar.css';
+import React from "react";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import '../styles/HeroBar.css'
 
 
-const HeroBar:React.FC = () => {
+
+type Photo = {
+    title: string;
+    src: string;
+    alt: string;
+};
+
+const photos: Photo[] = [
+    {
+        title: 'New Season',
+        src:'src/assets/images/Copy of card2.png',
+        alt: 'Photo 1'
+    },
+    {
+        title: 'The classics',
+        src:'src/assets/images/Copy of card3.png',
+        alt: 'Photo 2'
+    },
+    {
+        title: 'Retro Styles',
+        src:'src/assets/images/Copy of card4.png',
+        alt: 'Photo 3'
+    },
+    // add more photo here if required
+
+];
+const HeroBar: React.FC = () => {
     return (
-  /*bring a photo or gallery to fill the whole space*/
-        <section className="hero-bar">
-            <div className="hero-content">
-                <h2 className="hero-heading">New Season</h2>
-                <h2 className="hero-heading">The classics</h2>
-                <h2 className="hero-heading">Retro Styles</h2>
-            </div>
-            <div className="photo=gallery"> 
-                <div className="gallery-scroll">
-                    <img src="src/assets/images/Copy of card2.png" className="gallery-image"/>
-                    <img src="src/assets/images/Copy of card3.png" className="gallery-image"/>
-                    <img src="src/assets/images/Copy of card4.png" className="gallery-image"/>
+        <div className="hero-section">
+        <Carousel showThumbs={false} infiniteLoop useKeyboardArrows autoPlay>
+            {photos.map((photo,index) => (
+                <div key={index} className="carousel-image-container">
+                    <img src= {photo.src} alt={photo.alt}/>
                 </div>
-            </div>
-        </section>
-        );
-    };
-  
-
-
+            ))}
+        </Carousel>
+        </div>
+    );
+};
 export default HeroBar;

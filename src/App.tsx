@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./components/Header";
 import './styles/App.css';
-import HeroBar from './components/HeroBar';
+import HeroBar from '../src/components/HeroBar';
 
 const App: React.FC = () => {
   return (

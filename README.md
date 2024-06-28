@@ -164,3 +164,5 @@ I'm back to talk about:- "Vite-project day 1 is a Vite React project using TypeS
 - **Security:** Regularly update dependencies and implement security best practices.
 - **User Feedback:** Gather and iterate based on feedback.
 
+This react project uses :-
+React carousel for photo gallery
