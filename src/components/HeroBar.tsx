@@ -14,17 +14,27 @@ type Photo = {
 const photos: Photo[] = [
     {
         title: 'New Season',
-        src:'src/assets/images/Copy of card2.png',
+        src:'src/assets/images/jeans.jpg',
         alt: 'Photo 1'
     },
     {
         title: 'The classics',
-        src:'src/assets/images/Copy of card3.png',
+        src:'src/assets/images/bluejump.jpg',
         alt: 'Photo 2'
     },
     {
-        title: 'Retro Styles',
-        src:'src/assets/images/Copy of card4.png',
+        title: 'On board',
+        src:'src/assets/images/boatman.jpg',
+        alt: 'Photo 3'
+    },
+    {
+        title: 'Summer dazes',
+        src:'src/assets/images/mixedfive.jpg',
+        alt: 'Photo 3'
+    },
+    {
+        title: 'Urban ',
+        src:'src/assets/images/fivekid.jpg',
         alt: 'Photo 3'
     },
     // add more photo here if required
@@ -34,9 +44,10 @@ const HeroBar: React.FC = () => {
     return (
         <div className="hero-section">
         <Carousel showThumbs={false} infiniteLoop useKeyboardArrows autoPlay>
-            {photos.map((photo,index) => (
-                <div key={index} className="carousel-image-container">
+            {photos.map((photo, index) => (
+                <div key={index} className="carousel-image-container" style={{ backgroundImage: `url(${photo.src})`}}>
                     <img src= {photo.src} alt={photo.alt}/>
+                    <div className="carousel-text">{photo.title}</div>
                 </div>
             ))}
         </Carousel>
