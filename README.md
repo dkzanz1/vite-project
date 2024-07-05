@@ -165,4 +165,5 @@ I'm back to talk about:- "Vite-project day 1 is a Vite React project using TypeS
 - **User Feedback:** Gather and iterate based on feedback.
 
 This react project uses :-
-React carousel for photo gallery
+1/React carousel for photo gallery
+2/Material UI to creat reuseable cards note;_options:-Other availble libraries are Ant&Chara UI.

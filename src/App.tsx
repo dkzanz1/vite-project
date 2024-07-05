@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./components/Header";
 import './styles/App.css';
 import HeroBar from '../src/components/HeroBar';
+import CategoryBoxes from '../src/components/CategoryBoxes'
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
         {/* logo center with option navbar */}
         {/* hero photo with comment */}
         <HeroBar />
+        <CategoryBoxes />
         {/* card 1 of 4 across photos*/}
         {/* card 2 of 4 across photos*/}
         {/* card 3 of 4 across photos*/}
