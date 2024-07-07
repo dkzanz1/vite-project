@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 .category-box:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
 }
 .category-box h2 {
     margin: 0;

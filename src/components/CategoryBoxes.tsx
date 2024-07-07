@@ -3,7 +3,6 @@ import "../styles/CategoryBoxes.css";
 
 const categories: string[]=['Men', 'Women', 'Boys', 'Girls'];
 
-
 const CategoryBoxes: React.FC = () => {
     return (
     <div className="category-container">
@@ -14,10 +13,5 @@ const CategoryBoxes: React.FC = () => {
         ))};
     </div>
   );
-}
-
-
-
-
-
+};
 export default CategoryBoxes;
