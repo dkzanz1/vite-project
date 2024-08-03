@@ -17,12 +17,12 @@ const Box = styled(Paper)( {
 
 // const items: string[] = ['item1', 'item2', 'item3','item4','item5','item6'];
 const images = [
-    { src: 'src/assets/images/image5.png', title: 'item1'},
-    { src: 'src/assets/images/image6.png', title: 'item2'},
-    { src: 'src/assets/images/image7.png', title: 'item3'},
-    { src: 'src/assets/images/image8.png', title: 'item4'},
-    { src: 'src/assets/images/image9.png', title: 'item5'},
-    { src: 'src/assets/images/imag10.png', title: 'item6'},
+    { src: 'src/assets/images/image5.png',  title: 'item1'},
+    { src: 'src/assets/images/image6.png',  title: 'item2'},
+    { src: 'src/assets/images/image7.png',  title: 'item3'},
+    { src: 'src/assets/images/image8.png',  title: 'item4'},
+    { src: 'src/assets/images/image9.png',  title: 'item5'},
+    { src: 'src/assets/images/image10.png', title: 'item6'},
     { src: 'src/assets/images/image11.png', title: 'item7'},
     { src: 'src/assets/images/image12.png', title: 'item8'},
     { src: 'src/assets/images/image13.png', title: 'item9'},
