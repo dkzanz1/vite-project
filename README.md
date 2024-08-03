@@ -167,3 +167,4 @@ I'm back to talk about:- "Vite-project day 1 is a Vite React project using TypeS
 This react project uses :-
 1/React carousel for photo gallery
 2/Material UI to creat reuseable cards note;_options:-Other availble libraries are Ant&Chara UI.
+3/Added lazy loading function/m,ethod to see if webpage loaded better
