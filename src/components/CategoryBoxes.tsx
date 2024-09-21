@@ -10,7 +10,7 @@ const CategoryBoxes: React.FC = () => {
             <div className="category-box" key={category}>
                 <h2>{category}</h2>
             </div>
-        ))};
+        ))}
     </div>
   );
 };

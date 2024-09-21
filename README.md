@@ -30,7 +30,7 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-zogg dev notes
+zogg dev notes:->
 vite project runs with "npm run dev"command.
 Original install has path address issue with logo.svg found in public '../public/vite.svg';but due to error required to move logo.svg to src file
 
@@ -43,6 +43,7 @@ I'm back to talk about:- "Vite-project day 1 is a Vite React project using TypeS
 ## 1. Planning and Requirement Gathering
 - **Define the Scope:**
   - Core features: product listings, shopping cart, checkout process.
+  
   - User roles: customers, admin.
   - Non-functional requirements: performance, security.
 - **Market Research:**
@@ -165,6 +166,7 @@ I'm back to talk about:- "Vite-project day 1 is a Vite React project using TypeS
 - **User Feedback:** Gather and iterate based on feedback.
 
 This react project uses :-
+starts with npm run dev and uses http://localhost:5137/
 1/React carousel for photo gallery
 2/Material UI to creat reuseable cards note;_options:-Other availble libraries are Ant&Chara UI.
-3/Added lazy loading function/m,ethod to see if webpage loaded better
+3/Added lazy loading function/method to see if webpage loaded better

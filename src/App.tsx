@@ -4,6 +4,7 @@ import './styles/App.css';
 import HeroBar from '../src/components/HeroBar';
 import CategoryBoxes from '../src/components/CategoryBoxes'
 import GridGallery from '../src/components/GridGallery';
+import Footer from '../src/components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
         {/* trendinh card 4 photos */}
         {/* two photo  */}
         {/* footer */}
+        <Footer />
    
       </div>
   );

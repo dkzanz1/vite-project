@@ -28,12 +28,12 @@ const photos: Photo[] = [
         alt: 'Photo 3'
     },
     {
-        title: 'Summer dazes',
+        title: 'Spread the word',
         src:'src/assets/images/mixedfive.jpg',
         alt: 'Photo 3'
     },
     {
-        title: 'Urban ',
+        title: 'Urban styles ',
         src:'src/assets/images/fivekid.jpg',
         alt: 'Photo 3'
     },
