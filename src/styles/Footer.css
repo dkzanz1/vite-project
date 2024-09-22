@@ -1,11 +1,37 @@
 .footer {
+    display: flex; /* Use Flexbox to arrange items horizontally */
+    justify-content: space-between; /* Space out the sections evenly */
+    background-color: #f8f9fa; /* Example background color */
+    padding: 20px; /* Adds padding around the footer */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  .footer-section {
+    flex: 1; /* Each section takes up an equal amount of space */
+    padding: 10px 30px;
+    text-align: center; /* Center the text in each section */
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px 10px; /* Space between heading and content */
+  }
+  
+  .footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer-section li {
+    margin: 15px 10; /* Space between list items */
+  }
+  .footer-contact {
+    background-color: rgb(255, 187, 0);
+    border:2px dotted black;
+    margin 0px 40px;
+    padding: 20px;
+  }
+ .copyright {
+    margin-top: 20px;
     text-align: center;
-    padding: 1 rem;
-    background-color: #3eef09;
-    font-size: 0.9rem;
-    color: #333;
-    border-top: 1px solid #e1e1e1;
 }
-.footer p {
-    margin: 0;
-}
+  
