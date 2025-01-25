@@ -169,3 +169,4 @@ starts with npm run dev and uses http://localhost:5137/
 1/React carousel for photo gallery
 2/Material UI to creat reuseable cards note;_options:-Other availble libraries are Ant&Chara UI.
 3/Added lazy loading function/method to see if webpage loaded better
+updated to github on jan 25
